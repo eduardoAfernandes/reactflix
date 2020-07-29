@@ -4,7 +4,7 @@ import './index.css';
 import Home from './pages/Home/Home';
 import CadastroVideo from './pages/cadastro/video/index';
 import CadastroCategoria from './pages/cadastro/categoria/index';
-import Pagina404 from '../src/pages/404';
+import Pagina404 from '../src/pages/404/404';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
