@@ -6,7 +6,7 @@ export default function Pag404(){
         <div className="container-fluid">
             <PageDefault />
 
-            <iframe src="https://mariosouto.com/flappy-bird-devsoutinho/" width="100%" height="600"></iframe>
+            <iframe title="Iframe Game pagina 404" src="https://mariosouto.com/flappy-bird-devsoutinho/" width="100%" height="600"></iframe>
             <PageDefault />
         </div>
     )
