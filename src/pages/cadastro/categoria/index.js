@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
-import FormField from '../../../components/FormField/index';
+import FormField from '../../../components/FormField/';
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
@@ -13,19 +13,13 @@ export default function CadastroCategoria() {
   const [categorias,setCategorias] = useState(['Teste']);
   const [values,setValues] = useState(valoresIniciais);
 
-    function setValue(chave, valor){
 
-      // chave: nome, descrição
-        setValues({
-          ...values,
-          [chave]: valor // nome: 'valor
-        })
-    }
 
     function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
       const name = event.target.getAttribute('name') || ''; 
       const value = event.target.value;
   
+      // chave: nome, descrição
       setValues({
         ...values,
         [name]: value,
